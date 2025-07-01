@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise 9 </title>
+</head>
+<body>
+    <h1>Math.random</h1>
+    <p>Math.random randomly generates numbers bw 0 - 1 not ecaxtly 0 and not 1 but in bw </p>
+    <p>to increase its range we can use a function (say we have to increase its range to 20) function is -:</p>
+    <pre>
+        let randomNumber = maths.random () * 20;
+    </pre>
+    <p>if we want an integer non decimal number from 0 to 19 inclusive then functiok is</p>
+    <pre>
+        let randomInt = maths.floor(maths.random() * 20);
+    </pre>
+   
+    <pre>
+        ✅ 1. let a = 10;
+This just sets the value of a to 10 directly — it's hardcoded in your program. It doesn't ask the user anything.
+
+✅ 2. let a = prompt("Enter 1st number");
+This asks the user to type a value, like this:
+
+A popup appears in the browser that says "Enter 1st number"
+
+Whatever the user types gets saved in the variable a
+
+🟡 Important Note:
+prompt() always returns a string — even if the user types a number.
+
+So if we want to do math, we should convert it to a number:
+
+javascript
+Copy
+Edit
+let a = Number(prompt("Enter 1st number"));
+let b = Number(prompt("Enter 2nd number"));
+
+let sum = a + b;
+console.log("Sum is:", sum);
+🧪 Example:
+javascript
+Copy
+Edit
+let a = 10;
+let b = 5;
+console.log(a + b);  // Output: 15
+vs.
+
+javascript
+Copy
+Edit
+let a = prompt("Enter first number");  // e.g., user types 10
+let b = prompt("Enter second number"); // e.g., user types 5
+console.log(a + b);  // Output: "105" ❌ (string concatenation!)
+To fix that:
+
+javascript
+Copy
+Edit
+let a = Number(prompt("Enter first number"));
+let b = Number(prompt("Enter second number"));
+console.log(a + b);  // Output: 15 ✅
+🧠 Summary:
+Code	What It Does
+let a = 10;	Sets a to 10 (fixed number)
+let a = prompt("...");	Asks the user to input a value (string)
+Number(prompt("..."))	Asks for input and converts it to number
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </pre>
+
+    <mark>operators are strings not numbers</mark>
+     <script src="script.js"></script>
+
+    
+</body>
+</html>
