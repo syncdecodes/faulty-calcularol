@@ -15,6 +15,6 @@ This is my second project as I learn HTML, CSS, and JavaScript. Instead of worki
 <br>
 . But… intentionally gives wrong results randomly to simulate bugs or add some chaos!
 <br>
-🔗 **Live Demo**: [Check out Faulty Calcularol here] ()
+🔗 **Live Demo**: [Check out Faulty Calcularol here] (https://syncdecodes.github.io/faulty-calcularol/)
 <br>
 author - Dev
